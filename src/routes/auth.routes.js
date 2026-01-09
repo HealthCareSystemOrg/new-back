@@ -7,6 +7,7 @@ import {
   getPatientById,
 } from "../controllers/patient.controller.js";
 import { getDoctorById, getDoctors } from "../controllers/getDoctors.js";
+
 const router = express.Router();
 
 router.post("/register", register);
